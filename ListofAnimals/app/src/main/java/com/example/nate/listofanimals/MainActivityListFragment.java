@@ -1,6 +1,7 @@
 package com.example.nate.listofanimals;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.ListFragment;
 import android.view.View;
@@ -49,6 +50,23 @@ public class MainActivityListFragment extends ListFragment {
     @Override
     public void onListItemClick(ListView l, View v, int position, long id){
         super.onListItemClick(l, v, position, id);
+
+        launchAnimalDetailActivity(position);
+    }
+
+    private void launchAnimalDetailActivity(int position) {
+        // Get information for animal clicked on
+        Animal animal = (Animal) getListAdapter().getItem(position);
+        // New intent to launch animal detail
+        Intent intent = new Intent(getActivity(),AnimalDetail.class);
+        // Pass information from animal to the activity
+        intent.putExtra(MainActivity.ANIMAL_NAME_EXTRA, animal.getName());
+        intent.putExtra(MainActivity.ANIMAL_DESCRIPTION_EXTRA, animal.getDescription());
+        intent.putExtra(MainActivity.ANIMAL_CATEGORY_EXTRA, animal.getCategory());
+        intent.putExtra(MainActivity.ANIMAL_ID_EXTRA, animal.getAnimalId());
+
+        startActivity(intent);
+
     }
 
 }
