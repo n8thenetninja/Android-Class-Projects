@@ -4,7 +4,9 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.nate.listofanimals.MainActivity">
+    tools:context="com.example.nate.listofanimals.MainActivity"
+    android:background="#AB3E1A"
+    >
 
     <fragment
         android:id="@+id/mainActivityFrag"

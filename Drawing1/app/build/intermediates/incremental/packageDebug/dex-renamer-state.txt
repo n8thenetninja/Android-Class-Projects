@@ -1,7 +1,7 @@
-#Tue Oct 04 15:57:11 MDT 2016
-base.0=/home/nate/Dropbox/AndroidStudioProjects/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_916af5264f09d8357b40be9d1660d2f48a7e0620
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/nate/Dropbox/AndroidStudioProjects/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_454e3ea2384f4b96344c74e373f1380f85de9aa5/classes.dex
-base.1=/home/nate/Dropbox/AndroidStudioProjects/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_454e3ea2384f4b96344c74e373f1380f85de9aa5
-file.0=/home/nate/Dropbox/AndroidStudioProjects/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_916af5264f09d8357b40be9d1660d2f48a7e0620/classes.dex
+#Tue Oct 18 16:51:34 MDT 2016
+base.0=/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_900e72cfc5de61afbbc27c99a12e750f68959035
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5ff80a1d6482e4262f2d6affaa92470ee382fbc7/classes.dex
+base.1=/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5ff80a1d6482e4262f2d6affaa92470ee382fbc7
+file.0=/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_900e72cfc5de61afbbc27c99a12e750f68959035/classes.dex

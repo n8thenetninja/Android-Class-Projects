@@ -32,6 +32,7 @@ public class ChalkBoard extends View {
     public static final int COLOR_ACC    = 11;  //Constant to indicate transition color animation
     public static final int MOVE_RECOLOR = 12;  //Constant to indicate move and change color simultaneously
     public static final int MOVE_ROTATE_RECOLOR = 23;  //Constant to indicate move and rotate simultaneously then recolor animation
+    public static final int ROTATE_BOUNCE = 94;
     int displayWidth;       //width of screen - initialized in constructor
     int displayHeight;      //height of screen - initialized in constructor
 
@@ -162,6 +163,17 @@ public class ChalkBoard extends View {
                 at_once.play(moveguy).with(spinguy);
                 at_once.play(recolorguy).after(moveguy);
                 at_once.start();
+                break;
+            case ROTATE_BOUNCE:
+                ObjectAnimator movie      = getObjectAnimator(500,"fraction", 0.0f, 1.0f);
+                ObjectAnimator bouncy   = getObjectAnimator(800,"fraction", 0.0f, 1.0f);
+                ObjectAnimator spinny      = getObjectAnimator(700, "angle", 0.0f, 360.0f);
+                movie.setDuration(800);
+                bouncy.setInterpolator(new BounceInterpolator());
+                spinny.setDuration(800);
+                AnimatorSet all_at_once    = new AnimatorSet();
+                all_at_once.play(bouncy).after(spinny);
+                all_at_once.start();
                 break;
             default: break;
         }

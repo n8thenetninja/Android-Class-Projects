@@ -4,33 +4,103 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="790061779102"
-    token="-9030584680164752704"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="4238382269131"
+    token="1808802628064089418"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="1406" />
+        duration="75" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="326" />
     <task
         name="instant-run-transform"
-        duration="143" />
+        duration="13" />
     <task
         name="verifier"
-        duration="5" />
+        duration="1" />
 
     <artifact
-        location="/home/nate/Dropbox/AndroidStudioProjects/Drawing1/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="790061779102"
+        timestamp="2689699054095"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/nate/Dropbox/AndroidStudioProjects/Drawing1/app/build/outputs/apk/app-debug.apk"
+            location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="3782007601200"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="3900922638830"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="3961237491081"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/builds/debug/3961237491081/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="4001862932956"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/builds/debug/4001862932956/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="4027770170203"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/builds/debug/4027770170203/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="4054807073435"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/builds/debug/4054807073435/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="4147226975120"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/builds/debug/4147226975120/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="4183087051706"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/builds/debug/4183087051706/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="4208556019323"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/builds/debug/4208556019323/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="4238382269131"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/nate/AndroidStudioProjects/Android-Class-Projects/Drawing1/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

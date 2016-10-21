@@ -15,7 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AnimalDetail"></activity>
+        <activity
+            android:name=".AnimalDetail"
+            android:parentActivityName=".MainActivity"
+            ></activity>
     </application>
 
 </manifest>

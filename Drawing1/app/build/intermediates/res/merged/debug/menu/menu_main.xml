@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.aaron.drawing1.MainActivity">
     <item
+        android:id="@+id/rotatebounce_animation"
+        android:orderInCategory="49"
+        android:title="Rotate, move and Bounce"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
