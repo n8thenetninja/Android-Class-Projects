@@ -15,11 +15,11 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-
-    public static final String ANIMAL_ID_EXTRA = "com.example.nate.listofanimals.Animal Identifyer";
-    public static final String ANIMAL_NAME_EXTRA = "com.example.nate.listofanimals.Animal Name";
+    // String ids for passing data to the array adapter
     public static final String ANIMAL_DESCRIPTION_EXTRA = "com.example.nate.listofanimals.Animal Description";
+    public static final String ANIMAL_ID_EXTRA = "com.example.nate.listofanimals.Animal Identifyer";
     public static final String ANIMAL_CATEGORY_EXTRA = "com.example.nate.listofanimals.Animal Category";
+    public static final String ANIMAL_NAME_EXTRA = "com.example.nate.listofanimals.Animal Name";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
