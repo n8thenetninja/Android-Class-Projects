@@ -6,7 +6,6 @@ package com.example.nate.listofanimals;
 
 public class Animal {
     private String name, description;
-    private long animalId, dateAdded;
     private Category category;
 
     public enum Category{ REPTILE, MAMMAL, BIRD, INSECT }
@@ -15,16 +14,6 @@ public class Animal {
         this.name = name;
         this.description = description;
         this.category = category;
-        this.animalId = 0;
-        this.dateAdded = 0;
-    }
-
-    public Animal(String name, String description, Category category, long animalId, long dateAdded) {
-        this.name = name;
-        this.description = description;
-        this.category = category;
-        this.animalId = animalId;
-        this.dateAdded = dateAdded;
     }
 
     public String getName() {
@@ -39,17 +28,10 @@ public class Animal {
         return category;
     }
 
-    public long getDateAdded() {
-        return dateAdded;
-    }
-
-    public long getAnimalId() {
-        return animalId;
-    }
+    public String getCategoryString() {return category.name(); }
 
     public String toString() {
-        return "id: " + animalId + " Name: " + name + "Description: " + description + "IconID: " + category.name()
-                + " Date added: " + dateAdded;
+        return "Name: " + name + "Description: " + description + "IconID: " + category.name();
     }
 
     public int getAssociatedDrawable() {
@@ -70,8 +52,5 @@ public class Animal {
 
         return R.drawable.paw_icon;
     }
-
-
-
 
 }

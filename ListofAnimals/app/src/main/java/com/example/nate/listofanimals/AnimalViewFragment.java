@@ -31,12 +31,14 @@ public class AnimalViewFragment extends Fragment {
         View fragmentLayout = inflater.inflate(R.layout.fragment_animal_view,container,false);
         // Cast text and image views for population
         TextView name = (TextView) fragmentLayout.findViewById(R.id.viewAnimalTitle);
+        TextView category = (TextView) fragmentLayout.findViewById(R.id.viewAnimalCategory);
         TextView description = (TextView) fragmentLayout.findViewById(R.id.viewAnimalDescription);
         ImageView icon = (ImageView) fragmentLayout.findViewById(R.id.viewAnimalIcon);
 
         // Get intent data to populate fields
         Intent intent = getActivity().getIntent();
         name.setText(intent.getExtras().getString(MainActivity.ANIMAL_NAME_EXTRA));
+        category.setText("Family: " + intent.getExtras().getString(MainActivity.ANIMAL_CATEGORY_STRING_EXTRA));
         description.setText(intent.getExtras().getString(MainActivity.ANIMAL_DESCRIPTION_EXTRA));
         Animal.Category animalCategory = (Animal.Category) intent.getSerializableExtra(MainActivity.ANIMAL_CATEGORY_EXTRA);
         icon.setImageResource(Animal.categoryToDrawable(animalCategory));

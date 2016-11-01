@@ -17,8 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
     // String ids for passing data to the array adapter
     public static final String ANIMAL_DESCRIPTION_EXTRA = "com.example.nate.listofanimals.Animal Description";
-    public static final String ANIMAL_ID_EXTRA = "com.example.nate.listofanimals.Animal Identifyer";
     public static final String ANIMAL_CATEGORY_EXTRA = "com.example.nate.listofanimals.Animal Category";
+    public static final String ANIMAL_CATEGORY_STRING_EXTRA = "com.example.nate.listofanimals.Animal CategoryString";
+
     public static final String ANIMAL_NAME_EXTRA = "com.example.nate.listofanimals.Animal Name";
 
     @Override

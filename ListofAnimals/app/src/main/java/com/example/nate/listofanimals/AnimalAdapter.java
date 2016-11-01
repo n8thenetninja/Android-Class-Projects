@@ -30,10 +30,10 @@ public class AnimalAdapter extends ArrayAdapter<Animal> {
         // Get references of views to populate with specific data
         TextView animalName = (TextView) convertView.findViewById(R.id.listItemTitle);
         ImageView animalIcon = (ImageView) convertView.findViewById(R.id.listItemImg);
+        TextView animalCategory = (TextView) convertView.findViewById(R.id.viewAnimalCategory);
         // Fill each referenced view with data it references
         animalName.setText(animal.getName());
         animalIcon.setImageResource(animal.getAssociatedDrawable());
-
         // Return view to be displayed
         return convertView;
     }
